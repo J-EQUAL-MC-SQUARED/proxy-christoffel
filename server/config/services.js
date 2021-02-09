@@ -1,7 +1,7 @@
 module.exports = {
   service1: {
     api: '/picture-service/:id',
-    url: 'http://localhost:3004',
+    url: process.env.PORTONE,
     bundle: 'picture_app.js',
   },
 };
